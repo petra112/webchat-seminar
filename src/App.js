@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     if (user) {
-      const drone = new window.Scaledrone("5f1aqlcSfL7kPhaE", {
+      const drone = new window.Scaledrone("EgJmoHhefJdDRWv7", {
         data: user,
       });
       setDrone(drone);
